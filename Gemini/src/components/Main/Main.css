@@ -17,6 +17,11 @@
   width: 40px;
   border-radius: 50px;
 }
+.main .nav p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .main-container {
   max-width: 900px;
@@ -160,4 +165,19 @@
   font-size: 15px;
   font-weight: 300;
   line-height: 1.8;
+}
+@media (max-width: 600px) {
+  .main-bootom input {
+    flex: none;
+    width: 150px;
+  }
+  .main-bootom img {
+    width: 20px;
+  }
+  .search-box {
+    padding: 5px 10px;
+  }
+  .search-box div {
+    gap: 5px;
+  }
 }
